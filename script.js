@@ -553,8 +553,6 @@ const predefinedResponses = {
     "create an effective team onboarding process": "Outline roles clearly, provide training, and ensure a welcoming environment.",
     "develop negotiation strategies that work": "Research your position, practice your points, and seek win-win solutions.",
     "manage team motivation through recognition": "Acknowledge achievements, encourage collaboration, and maintain open communication.",
-    // Existing responses.
-
     "develop a positive mindset": "Practice gratitude, focus on solutions, and surround yourself with positive influences.",
     "boost team morale": "Recognize achievements, encourage collaboration, and maintain open communication.",
     "enhance problem-solving skills": "Practice critical thinking, analyze past solutions, and collaborate with others.",
@@ -1375,9 +1373,8 @@ const predefinedResponses = {
     "handle difficult conversations with confidence": "Prepare points, practice active listening, and focus on solutions.",
     "develop skills for effective delegation": "Identify tasks to delegate, match tasks to team members' strengths, and provide support.",
     "foster a culture of gratitude": "Encourage recognition of contributions, celebrate successes, and express appreciation regularly.",
-    "develop skills for effective research": "Use credible sources, analyze data critically, and summarize findings clearly."  
-    
-    // Add more responses as needed
+    "develop skills for effective research": "Use credible sources, analyze data critically, and summarize findings clearly.".
+        
 };
 
 function sendMessage() {
