@@ -9,32 +9,51 @@ const predefinedResponses = {
     "established_year": "Shreeyash College of Engineering and Technology was established in 2008.",
     "affiliation": "The college is affiliated with Dr. Babasaheb Ambedkar Marathwada University (BAMU) and is approved by the All India Council for Technical Education (AICTE).",
     "address": "Our college is located at Gut No. 258 (P), Satara Parisar, Near SRPF Camp, Beed By Pass Road, Aurangabad, Maharashtra 431005, India.",
-    "college_name": "Shreeyash College of Engineering and Technology (SYCET), Aurangabad, Maharashtra.",
-    "established_year": "Shreeyash College of Engineering and Technology was established in 2008.",
-    "affiliation": "The college is affiliated with Dr. Babasaheb Ambedkar Marathwada University (BAMU) and approved by the All India Council for Technical Education (AICTE).",
-    "address": "Our college is located at Gut No. 258 (P), Satara Parisar, Near SRPF Camp, Beed By Pass Road, Aurangabad, Maharashtra 431005, India.",
-    "contact_info": "You can reach us at 0240-6608701, 0240-6608702, or 0240-6608710. For mobile inquiries, contact 7030307681 or 8067205750.",
-    "email": "Currently, we don't have a direct email. Please call for inquiries.",
-    "undergraduate_courses": "We offer Bachelor of Engineering (B.E.) programs in Mechanical Engineering, Computer Science, Civil Engineering, Electronics & Telecommunication, and Information Technology.",
-    "postgraduate_courses": "We offer Master of Engineering (M.Tech) in Structural Engineering, Mechanical Engineering, Electronics & Telecommunication, Computer Science, and MBA in Financial Management, Marketing, and Human Resource.",
-    "admission_process_undergraduate": "Admissions to the B.E. programs are based on scores from JEE Main or MHT CET exams.",
-    "admission_process_postgraduate": "M.Tech admissions are based on GATE scores, and MBA admissions require entrance exam scores such as XAT, MAT, CMAT, ATMA, etc.",
-    "placement_highest_salary": "The highest salary offered during placements was INR 10 LPA.",
-    "placement_average_salary": "The average salary offered was INR 3.3 LPA.",
-    "placement_top_recruiters": "Top recruiters include Bajaj Auto, Siemens, Wipro, Varroc, Endurance, Yeshshree COMP, among others.",
-    "placement_cell": "Our college has a dedicated training and placement cell to facilitate campus recruitment and internships for students.",
-    "hostel_facilities": "We offer separate accommodations for boys and girls, with a capacity of 600 boys and 300 girls. The hostels include mess facilities, gym, RO water, and 24/7 transportation for medical emergencies.",
-    "library_facilities": "Our library has over 20,000 volumes of books and journals (both national and international), and we also have an e-library.",
-    "sports_facilities": "We offer a wide range of sports facilities for recreational activities, including a sports ground.",
-    "canteen_facilities": "The college canteen provides clean and healthy food, with purified water available at all times.",
-    "wifi_facilities": "The campus has 24/7 Wi-Fi access for students and staff.",
-    "total_faculty": "The college has 102 faculty members, out of which 6 hold Ph.D. degrees.",
-    "faculty_experience": "Our faculty members are highly experienced and dedicated to providing quality education and mentoring to students.",
-    "events_and_clubs": "SYCET organizes various cultural, technical, and sports events. We also have student clubs focused on areas like robotics, entrepreneurship, and coding.",
-    "accreditations": "Our college is approved by AICTE and some of our engineering programs are accredited by the National Board of Accreditation (NBA).",
+    "contact_info": {
+        "phone": "You can reach us at 0240-6608701, 0240-6608702, or 0240-6608710.",
+        "mobile": "For mobile inquiries, you can contact us at 7030307681 or 8067205750.",
+        "email": "Currently, we don't have a direct email. Please call for inquiries."
+    },
+    "courses": {
+        "undergraduate": "We offer various Bachelor of Engineering (B.E.) programs in specializations like Mechanical Engineering, Computer Science, Civil Engineering, Electronics & Telecommunication, and Information Technology.",
+        "postgraduate": "We offer Master of Engineering (M.Tech) in Structural Engineering, Mechanical Engineering, Electronics & Telecommunication, Computer Science, and Master of Business Administration (MBA) in Financial Management, Marketing, and Human Resource."
+    },
+    "admission_process": {
+        "undergraduate": "Admissions to the B.E. programs are based on scores from JEE Main or MHT CET exams.",
+        "postgraduate": "M.Tech admissions are based on GATE scores, and MBA admissions require entrance exam scores such as XAT, MAT, CMAT, ATMA, etc.",
+        "criteria": "The college considers entrance exam scores and eligibility criteria as per the specific program requirements. Please refer to the official website or contact us for detailed information."
+    },
+    "placements": {
+        "highest_salary": "The highest salary offered during placements was INR 10 LPA.",
+        "average_salary": "The average salary offered was INR 3.3 LPA.",
+        "top_recruiters": "Top recruiters include Bajaj Auto, Siemens, Wipro, Varroc, Endurance, Yeshshree COMP, among others.",
+        "placement_cell": "Our college has a dedicated training and placement cell to facilitate campus recruitment and internships for students."
+    },
+    "facilities": {
+        "hostels": "We offer separate accommodations for boys and girls. The boys' hostel has a capacity of 600, and the girls' hostel can accommodate 300 students. The hostels come with mess facilities, gym, RO water, and 24/7 transportation for medical emergencies.",
+        "library": "Our library has over 20,000 volumes of books and journals (both national and international). We also have an e-library facility for students.",
+        "sports": "We offer a wide range of sports facilities for recreational activities, including a sports ground.",
+        "canteen": "The college canteen provides clean and healthy food, with purified water available at all times.",
+        "wifi": "The campus has 24/7 Wi-Fi access for students and staff."
+    },
+    "faculty": {
+        "total_faculty": "The college has 102 faculty members, out of which 6 hold Ph.D. degrees.",
+        "faculty_experience": "Our faculty members are highly experienced and dedicated to providing quality education and mentoring to students."
+    },
+    "campus_life": {
+        "events": "SYCET organizes various cultural, technical, and sports events, providing students with ample opportunities for extracurricular activities.",
+        "clubs": "We have several student clubs focused on areas like robotics, entrepreneurship, coding, and more."
+    },
+    "accreditations": {
+        "aicte": "Our college is approved by the All India Council for Technical Education (AICTE).",
+        "nba": "Some of our engineering programs are accredited by the National Board of Accreditation (NBA).",
+        "university": "The college is affiliated with Dr. Babasaheb Ambedkar Marathwada University (BAMU)."
+    },
     "international_collaborations": "SYCET has collaborations with various global institutions for student exchange programs and research opportunities.",
-    "fee_structure_undergraduate": "The fee structure for B.E. programs varies depending on the specialization. Please refer to the official website for detailed information.",
-    "fee_structure_postgraduate": "The fee structure for M.Tech and MBA programs is also available on the college's official website.",
+    "fees_structure": {
+        "undergraduate": "The fee structure for B.E. programs varies depending on the specialization. For detailed information, please refer to the official fee structure or contact the college administration.",
+        "postgraduate": "The fee structure for M.Tech and MBA programs is also available on the college's official website or by contacting the administration."
+    },
     "scholarships": "The college offers various scholarships based on merit and financial need. For detailed scholarship schemes, please contact the administration or visit the official website.",
     "admission_deadlines": "Admission deadlines for different programs are announced annually. Please refer to the college website or contact the admission office for exact dates.",
     "what skills are in demand": "Skills in tech, data analysis, and communication are highly sought after in many fields.",
