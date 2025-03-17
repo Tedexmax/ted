@@ -5,58 +5,44 @@ const predefinedResponses = {
     "what's your name": "I'm your virtual career coach, here to guide you.",
     "bye": "Goodbye! Wishing you success in your career.",
     "help": "Of course! What specific career advice do you need?",
-    "college_name": "Shreeyash College of Engineering and Technology (SYCET), Aurangabad, Maharashtra.",
-    "established_year": "Shreeyash College of Engineering and Technology was established in 2008.",
-    "affiliation": "The college is affiliated with Dr. Babasaheb Ambedkar Marathwada University (BAMU) and is approved by the All India Council for Technical Education (AICTE).",
-    "address": "Our college is located at Gut No. 258 (P), Satara Parisar, Near SRPF Camp, Beed By Pass Road, Aurangabad, Maharashtra 431005, India.",
-    "contact_info": {
-        "phone": "You can reach us at 0240-6608701, 0240-6608702, or 0240-6608710.",
-        "mobile": "For mobile inquiries, you can contact us at 7030307681 or 8067205750.",
-        "email": "Currently, we don't have a direct email. Please call for inquiries."
-    },
-    "courses": {
-        "undergraduate": "We offer various Bachelor of Engineering (B.E.) programs in specializations like Mechanical Engineering, Computer Science, Civil Engineering, Electronics & Telecommunication, and Information Technology.",
-        "postgraduate": "We offer Master of Engineering (M.Tech) in Structural Engineering, Mechanical Engineering, Electronics & Telecommunication, Computer Science, and Master of Business Administration (MBA) in Financial Management, Marketing, and Human Resource."
-    },
-    "admission_process": {
-        "undergraduate": "Admissions to the B.E. programs are based on scores from JEE Main or MHT CET exams.",
-        "postgraduate": "M.Tech admissions are based on GATE scores, and MBA admissions require entrance exam scores such as XAT, MAT, CMAT, ATMA, etc.",
-        "criteria": "The college considers entrance exam scores and eligibility criteria as per the specific program requirements. Please refer to the official website or contact us for detailed information."
-    },
-    "placements": {
-        "highest_salary": "The highest salary offered during placements was INR 10 LPA.",
-        "average_salary": "The average salary offered was INR 3.3 LPA.",
-        "top_recruiters": "Top recruiters include Bajaj Auto, Siemens, Wipro, Varroc, Endurance, Yeshshree COMP, among others.",
-        "placement_cell": "Our college has a dedicated training and placement cell to facilitate campus recruitment and internships for students."
-    },
-    "facilities": {
-        "hostels": "We offer separate accommodations for boys and girls. The boys' hostel has a capacity of 600, and the girls' hostel can accommodate 300 students. The hostels come with mess facilities, gym, RO water, and 24/7 transportation for medical emergencies.",
-        "library": "Our library has over 20,000 volumes of books and journals (both national and international). We also have an e-library facility for students.",
-        "sports": "We offer a wide range of sports facilities for recreational activities, including a sports ground.",
-        "canteen": "The college canteen provides clean and healthy food, with purified water available at all times.",
-        "wifi": "The campus has 24/7 Wi-Fi access for students and staff."
-    },
-    "faculty": {
-        "total_faculty": "The college has 102 faculty members, out of which 6 hold Ph.D. degrees.",
-        "faculty_experience": "Our faculty members are highly experienced and dedicated to providing quality education and mentoring to students."
-    },
-    "campus_life": {
-        "events": "SYCET organizes various cultural, technical, and sports events, providing students with ample opportunities for extracurricular activities.",
-        "clubs": "We have several student clubs focused on areas like robotics, entrepreneurship, coding, and more."
-    },
-    "accreditations": {
-        "aicte": "Our college is approved by the All India Council for Technical Education (AICTE).",
-        "nba": "Some of our engineering programs are accredited by the National Board of Accreditation (NBA).",
-        "university": "The college is affiliated with Dr. Babasaheb Ambedkar Marathwada University (BAMU)."
-    },
-    "international_collaborations": "SYCET has collaborations with various global institutions for student exchange programs and research opportunities.",
-    "fees_structure": {
-        "undergraduate": "The fee structure for B.E. programs varies depending on the specialization. For detailed information, please refer to the official fee structure or contact the college administration.",
-        "postgraduate": "The fee structure for M.Tech and MBA programs is also available on the college's official website or by contacting the administration."
-    },
-    "scholarships": "The college offers various scholarships based on merit and financial need. For detailed scholarship schemes, please contact the administration or visit the official website.",
+    "What is the name of your college?": "The name of our college is Shreeyash College of Engineering and Technology (SYCET), located in Aurangabad, Maharashtra.",
+    "When was Shreeyash College of Engineering and Technology established?": "Shreeyash College of Engineering and Technology was established in 2008.",
+    "What university is your college affiliated with?": "We are affiliated with Dr. Babasaheb Ambedkar Marathwada University (BAMU) and are approved by the All India Council for Technical Education (AICTE).",
+    "Where is your college located?": "Our college is located at Gut No. 258 (P), Satara Parisar, Near SRPF Camp, Beed By Pass Road, Aurangabad, Maharashtra 431005, India.",
+    "How can I contact the college?": "You can reach us at 0240-6608701, 0240-6608702, or 0240-6608710. For mobile inquiries, you can contact us at 7030307681 or 8067205750.",
+    "What programs do you offer for undergraduate students?": "We offer Bachelor of Engineering (B.E.) programs in Mechanical Engineering, Computer Science, Civil Engineering, Electronics & Telecommunication, and Information Technology.",
+    "Do you offer any postgraduate programs?": "Yes, we offer M.Tech programs in Structural Engineering, Mechanical Engineering, Electronics & Telecommunication, and Computer Science. We also offer an MBA with specializations in Financial Management, Marketing, and Human Resource.",
+    "How do I apply for undergraduate courses at your college?": "You can apply for our B.E. programs based on your scores in JEE Main or MHT CET exams.",
+    "How do I apply for postgraduate courses?": "For M.Tech admissions, you need to have a valid GATE score. For MBA, you can apply based on scores from exams like XAT, MAT, CMAT, ATMA, and others.",
+    "What is the highest salary offered during placements?": "The highest salary offered to our students during placements was INR 10 LPA.",
+    "What is the average salary for placed students?": "The average salary offered during our placements was INR 3.3 LPA.",
+    "Which companies visit for campus placements?": "Some of the top recruiters that visit our campus for placements include Bajaj Auto, Siemens, Wipro, Varroc, Endurance, and Yeshshree COMP.",
+    "Does the college have a placement cell?": "Yes, we have a dedicated training and placement cell that works hard to facilitate campus recruitment and internships for our students.",
+    "Do you have hostel facilities?": "Yes, we provide separate hostels for boys and girls. The boys’ hostel can accommodate 600 students, and the girls’ hostel can accommodate 300 students. Our hostels are equipped with mess facilities, gym, RO water, and 24/7 transportation for medical emergencies.",
+    "What is available in your college library?": "Our library has over 20,000 books and journals, both national and international, and we also have an e-library for students to access resources online.",
+    "Do you have sports facilities at the college?": "Yes, we have sports grounds and various recreational activities for students, ensuring a balanced campus life.",
+    "What is the food like in your college canteen?": "Our college canteen provides clean and healthy food, and we ensure purified water is available at all times.",
+    "Do you have Wi-Fi on campus?": "Yes, the campus is equipped with 24/7 Wi-Fi access for both students and staff.",
+    "How many faculty members do you have?": "We have 102 faculty members, with 6 of them holding Ph.D. degrees. Our faculty is highly experienced and committed to helping students succeed.",
+    "Can you tell me about the extracurricular activities at your college?": "We organize a variety of cultural, technical, and sports events throughout the year. We also have student clubs focused on areas like robotics, entrepreneurship, and coding.",
+    "Is your college accredited?": "Yes, we are approved by AICTE, and some of our engineering programs are accredited by the National Board of Accreditation (NBA).",
+    "Do you have any international collaborations?": "Yes, we have collaborations with various global institutions for student exchange programs and research opportunities.",
+    "How much is the fee for undergraduate programs?": "The fee structure for B.E. programs depends on the specialization. You can find detailed information on our official website or by contacting the administration.",
+    "How much does it cost to study a postgraduate program?": "The fee structure for M.Tech and MBA programs can be found on our official website or by contacting the college administration.",
+    "Do you offer scholarships for students?": "Yes, we offer various scholarships based on merit and financial need. For detailed information, please contact the administration or visit the official website.",
+    "When is the admission deadline?": "The admission deadlines vary depending on the program. You can check the official website or contact the admission office for the exact dates.",
     "admission_deadlines": "Admission deadlines for different programs are announced annually. Please refer to the college website or contact the admission office for exact dates.",
     "what skills are in demand": "Skills in tech, data analysis, and communication are highly sought after in many fields.",
+    "What is the campus size of SYCET?": "Our campus spans 55 acres, providing a spacious and green environment for academic and extracurricular activities.",
+    "What facilities are available on campus?": "We offer a range of facilities including a central library with over 26,000 volumes, well-equipped laboratories, a gymnasium, sports facilities, and separate hostels for boys and girls.",
+    "How is the hostel accommodation at SYCET?": "Our hostels provide comfortable accommodation with essential amenities, hygienic food, and a safe environment for both boys and girls.",
+    "What is the student diversity like at SYCET?": "Our student body comprises a mix of male and female students from various backgrounds, fostering a diverse and inclusive community.",
+    "Does the college provide internship opportunities?": "Yes, we offer various internship opportunities across different engineering disciplines, with stipends around INR 15,000 per month for some positions.",
+    "What is the fee structure for the MBA program?": "The annual fee for the MBA program is approximately INR 1,30,000. For detailed fee structures, please refer to our official website.",
+    "How is the campus environment at SYCET?": "Students appreciate the safe and supportive campus environment, with positive reviews highlighting faculty support and campus life.",
+    "What extracurricular activities are available?": "We organize various cultural, technical, and sports events, along with student clubs focused on robotics, entrepreneurship, and coding.",
+    "How does the college support placements?": "Our dedicated training and placement cell facilitates campus recruitment and internships, with average salaries ranging from INR 50,000 to INR 1,00,000 per year.",
+    "Are there any medical facilities on campus?": "Yes, we have medical facilities available on campus to cater to students' health and emergency needs.",
     "how do I ask for a raise": "Prepare your case with evidence of your contributions, and request a meeting to discuss it professionally.",
     "how do I change careers": "Identify transferable skills, research your desired field, and consider taking courses to bridge any gaps.",
     "what's the best way to create a portfolio": "Include work samples, case studies, and testimonials that showcase your skills and achievements.",
