@@ -42,8 +42,8 @@ const predefinedResponses = {
     "How is the campus environment at SYCET?": "Students appreciate the safe and supportive campus environment, with positive reviews highlighting faculty support and campus life.",
     "What extracurricular activities are available?": "We organize various cultural, technical, and sports events, along with student clubs focused on robotics, entrepreneurship, and coding.",
     "How does the college support placements?": "Our dedicated training and placement cell facilitates campus recruitment and internships, with average salaries ranging from INR 50,000 to INR 1,00,000 per year.",
-    "Are there any medical facilities on campus?": "Yes, we have medical facilities available on campus to cater to students' health and emergency needs.".
- };
+    "Are there any medical facilities on campus?": "Yes, we have medical facilities available on campus to cater to students' health and emergency needs."
+};
 
 function sendMessage() {
     const userInput = document.getElementById('userInput');
