@@ -5,36 +5,58 @@ const predefinedResponses = {
     "what's your name": "I'm your virtual career coach, here to guide you.",
     "bye": "Goodbye! Wishing you success in your career.",
     "help": "Of course! What specific career advice do you need?",
-    "what can you do": "I can provide career advice, help with job searching, and offer professional development tips.",
-    "tell me a joke": "Why did the scarecrow get promoted? Because he was outstanding in his field!",
-    "how do I prepare for an interview": "Research the company, practice common interview questions, and prepare your own questions.",
-    "what skills should I develop": "Focus on skills relevant to your desired career path. Soft skills like communication and teamwork are essential.",
-    "how can I network effectively": "Attend industry events, connect on LinkedIn, and reach out to alumni from your school.",
-    "what should I include in my resume": "Highlight relevant experience, skills, and accomplishments. Tailor it to each job application.",
-    "how do I find a mentor": "Look for someone in your field whose career path you admire. Reach out for advice or coffee chats.",
-    "how can I improve my LinkedIn profile": "Use a professional photo, write a compelling summary, and showcase your skills and achievements.",
-    "how do I deal with job search anxiety": "Take breaks, stay organized, and focus on what you can control. Remember, it's a process.",
-    "what are some good interview questions to ask": "Ask about company culture, team dynamics, and growth opportunities.",
-    "how do I ask for a raise": "Prepare your case by outlining your contributions and market research. Schedule a meeting to discuss it professionally.",
-    "how can I balance work and personal life": "Set boundaries, prioritize self-care, and manage your time effectively.",
-    "what's a good way to transition careers": "Identify transferable skills, network in your desired field, and consider additional training or education.",
-    "how can I stay motivated in my job search": "Set small, achievable goals, celebrate progress, and surround yourself with supportive people.",
-    "what's a good professional development resource": "Consider online courses, webinars, or workshops relevant to your field.",
-    "how can I showcase my skills in an interview": "Use specific examples from past experiences to demonstrate your skills and achievements.",
-    "how do I handle workplace conflict": "Address issues directly but diplomatically, focusing on solutions rather than blame.",
-    "what should I do if I'm feeling stuck in my career": "Reflect on your goals, seek feedback, and consider new opportunities or training.",
-    "how do I create a career plan": "Set short-term and long-term goals, outline steps to achieve them, and review regularly.",
-    "what's the best way to learn a new skill": "Consider online courses, practice regularly, and seek feedback from others in the field.",
-    "how can I enhance my public speaking skills": "Practice regularly, join a group like Toastmasters, and seek opportunities to speak in front of others.",
-    "how do I evaluate job offers": "Consider salary, benefits, company culture, growth opportunities, and work-life balance.",
-    "how can I stay relevant in my field": "Continue learning through courses, certifications, and networking with industry professionals.",
-    "what's the importance of soft skills": "Soft skills enhance teamwork, communication, and adaptability, which are crucial in any job.",
-    "how do I set career goals": "Identify what you want to achieve, make them SMART (Specific, Measurable, Achievable, Relevant, Time-bound), and create an action plan.",
-    "how can I make a good first impression": "Be punctual, dress appropriately, and show enthusiasm and confidence in your interactions.",
-    "how do I stay organized in my job search": "Use a spreadsheet to track applications, deadlines, and follow-ups, and set regular check-ins for progress.",
-    "how do I prepare for a job interview": "Research the company, practice common interview questions, and prepare your own questions.",
-    "what should I include in my resume": "Highlight your relevant skills, experiences, and achievements. Tailor it for each job application.",
-    "how can I network effectively": "Attend industry events, connect on LinkedIn, and follow up with new contacts.",
+    "college_name": "Shreeyash College of Engineering and Technology (SYCET), Aurangabad, Maharashtra.",
+    "established_year": "Shreeyash College of Engineering and Technology was established in 2008.",
+    "affiliation": "The college is affiliated with Dr. Babasaheb Ambedkar Marathwada University (BAMU) and is approved by the All India Council for Technical Education (AICTE).",
+    "address": "Our college is located at Gut No. 258 (P), Satara Parisar, Near SRPF Camp, Beed By Pass Road, Aurangabad, Maharashtra 431005, India.",
+    "contact_info": {
+        "phone": "You can reach us at 0240-6608701, 0240-6608702, or 0240-6608710.",
+        "mobile": "For mobile inquiries, you can contact us at 7030307681 or 8067205750.",
+        "email": "Currently, we don't have a direct email. Please call for inquiries."
+    },
+    "courses": {
+        "undergraduate": "We offer various Bachelor of Engineering (B.E.) programs in specializations like Mechanical Engineering, Computer Science, Civil Engineering, Electronics & Telecommunication, and Information Technology.",
+        "postgraduate": "We offer Master of Engineering (M.Tech) in Structural Engineering, Mechanical Engineering, Electronics & Telecommunication, Computer Science, and Master of Business Administration (MBA) in Financial Management, Marketing, and Human Resource."
+    },
+    "admission_process": {
+        "undergraduate": "Admissions to the B.E. programs are based on scores from JEE Main or MHT CET exams.",
+        "postgraduate": "M.Tech admissions are based on GATE scores, and MBA admissions require entrance exam scores such as XAT, MAT, CMAT, ATMA, etc.",
+        "criteria": "The college considers entrance exam scores and eligibility criteria as per the specific program requirements. Please refer to the official website or contact us for detailed information."
+    },
+    "placements": {
+        "highest_salary": "The highest salary offered during placements was INR 10 LPA.",
+        "average_salary": "The average salary offered was INR 3.3 LPA.",
+        "top_recruiters": "Top recruiters include Bajaj Auto, Siemens, Wipro, Varroc, Endurance, Yeshshree COMP, among others.",
+        "placement_cell": "Our college has a dedicated training and placement cell to facilitate campus recruitment and internships for students."
+    },
+    "facilities": {
+        "hostels": "We offer separate accommodations for boys and girls. The boys' hostel has a capacity of 600, and the girls' hostel can accommodate 300 students. The hostels come with mess facilities, gym, RO water, and 24/7 transportation for medical emergencies.",
+        "library": "Our library has over 20,000 volumes of books and journals (both national and international). We also have an e-library facility for students.",
+        "sports": "We offer a wide range of sports facilities for recreational activities, including a sports ground.",
+        "canteen": "The college canteen provides clean and healthy food, with purified water available at all times.",
+        "wifi": "The campus has 24/7 Wi-Fi access for students and staff."
+    },
+    "faculty": {
+        "total_faculty": "The college has 102 faculty members, out of which 6 hold Ph.D. degrees.",
+        "faculty_experience": "Our faculty members are highly experienced and dedicated to providing quality education and mentoring to students."
+    },
+    "campus_life": {
+        "events": "SYCET organizes various cultural, technical, and sports events, providing students with ample opportunities for extracurricular activities.",
+        "clubs": "We have several student clubs focused on areas like robotics, entrepreneurship, coding, and more."
+    },
+    "accreditations": {
+        "aicte": "Our college is approved by the All India Council for Technical Education (AICTE).",
+        "nba": "Some of our engineering programs are accredited by the National Board of Accreditation (NBA).",
+        "university": "The college is affiliated with Dr. Babasaheb Ambedkar Marathwada University (BAMU)."
+    },
+    "international_collaborations": "SYCET has collaborations with various global institutions for student exchange programs and research opportunities.",
+    "fees_structure": {
+        "undergraduate": "The fee structure for B.E. programs varies depending on the specialization. For detailed information, please refer to the official fee structure or contact the college administration.",
+        "postgraduate": "The fee structure for M.Tech and MBA programs is also available on the college's official website or by contacting the administration."
+    },
+    "scholarships": "The college offers various scholarships based on merit and financial need. For detailed scholarship schemes, please contact the administration or visit the official website.",
+    "admission_deadlines": "Admission deadlines for different programs are announced annually. Please refer to the college website or contact the admission office for exact dates."
+};
     "what skills are in demand": "Skills in tech, data analysis, and communication are highly sought after in many fields.",
     "how do I ask for a raise": "Prepare your case with evidence of your contributions, and request a meeting to discuss it professionally.",
     "how do I change careers": "Identify transferable skills, research your desired field, and consider taking courses to bridge any gaps.",
